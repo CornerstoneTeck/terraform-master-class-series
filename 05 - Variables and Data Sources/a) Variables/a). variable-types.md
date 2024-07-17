@@ -33,6 +33,13 @@ variable "enabled" {
   type = bool
   default = false
 }
+
+OR
+
+variable "boolean" {
+  type = bool
+  #default = false
+}
 ```
 **List**
 - Lists is represented by a pair of square brackets containing a comma-separated sequence of values, like ["a", 15, true].
