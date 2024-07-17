@@ -42,6 +42,7 @@ variable "mylist" {
   default = ["Value1", "Value2"]
 }
 ##index list start with [0,1...] where 0 =first value to be referenced in the list
+##i.e index position 0 = value1, index position1 = value2....etc
 ```
 - How do you reference List values ?
 
