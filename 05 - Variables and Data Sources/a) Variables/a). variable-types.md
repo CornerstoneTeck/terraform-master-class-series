@@ -41,6 +41,7 @@ variable "mylist" {
   type    = list(string)
   default = ["Value1", "Value2"]
 }
+##index list start with [0,1...] where 0 =first value to be referenced in the list
 ```
 - How do you reference List values ?
 
